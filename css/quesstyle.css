@@ -1,0 +1,82 @@
+.storytext {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 15px;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 10px 0px;
+}
+.magicstory {
+  display: flex;
+  padding: 20px 0px;
+}
+.storytext p {
+  line-height: 2;
+  font-size: 18px;
+  opacity: 0.7;
+}
+.greyback {
+  background-color: grey;
+  text-align: center;
+}
+.storytext button {
+  color: white;
+  background-color: blue;
+  padding: 10px 30px;
+  border-style: none;
+}
+.storytext h3 {
+  font-size: 30px;
+}
+.h3 {
+  padding: 30px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.h3 span {
+  color: blue;
+}
+.questionItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 10px;
+  background-color: black;
+  color: white;
+  width: 50%;
+}
+.questions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 15px;
+}
+.clientItem {
+  display: flex;
+  width: 32.5%;
+  border: 2px solid black;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  background-color: white;
+  justify-content: space-around;
+}
+.clientItem img {
+  width: 100px;
+  border-radius: 50%;
+}
+.clientItem p {
+  line-height: 2;
+  opacity: 0.7;
+}
+.h4 {
+  color: blue;
+}
+.client {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}

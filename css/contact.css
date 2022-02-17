@@ -1,0 +1,158 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+.container-fluid {
+  width: 100%;
+  margin: 0px auto;
+}
+.container {
+  width: 80%;
+  margin: 0px auto;
+  padding: auto;
+}
+.left__header {
+  display: flex;
+  align-items: center;
+}
+header {
+  background-color: blue;
+}
+.headerinfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+.headerinfo img {
+  height: 40px;
+}
+.searchbox input {
+  padding: 10px 80px 10px 30px;
+  border-radius: 20px;
+  border-style: none;
+}
+.menus {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.menucontainer {
+  background-color: rgba(0, 0, 0, 0.432);
+  padding: 20px 0;
+}
+.footermenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.addrestable {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px 10px;
+}
+.address__info {
+  width: 32%;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px 50px;
+}
+.address__info img {
+  background-color: blue;
+  padding: 20px;
+  border-radius: 50%;
+}
+.address__info img,
+.address__info h3,
+.address__info p {
+  line-height: 2;
+}
+.inputs {
+  width: 100%;
+  margin: 10px 0px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: auto auto;
+}
+.inputs input,
+.textarea {
+  /* margin: 5px 0px; */
+  padding: 5px;
+  border: 2px solid black;
+}
+.message {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+}
+.greyback {
+  background-color: rgba(247, 235, 235, 0.623);
+}
+.textnews {
+  width: 50%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.textnews h2 {
+  font-size: 35px;
+  font-weight: 750;
+}
+.textnews p {
+  font-size: 15px;
+}
+.newpage {
+  padding: 20px 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.newpage input {
+  position: relative;
+  width: 550px;
+  height: 40px;
+}
+.newpage img {
+  position: absolute;
+  right: 153px;
+}
+.blueback {
+  background-color: blue;
+}
+form {
+  padding: 10px;
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 10px;
+}
+form button {
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border-style: nonex;
+}
+footer {
+  padding: 15px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+footer h5 span {
+  color: blue;
+}
+footer h5 {
+  opacity: 0.7;
+}

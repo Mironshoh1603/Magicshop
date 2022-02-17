@@ -1,0 +1,123 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+.container-fluid {
+  width: 100%;
+  margin: 0px auto;
+}
+.container {
+  width: 80%;
+  margin: 0px auto;
+  padding: auto;
+}
+.left__header {
+  display: flex;
+  align-items: center;
+}
+header {
+  background-color: blue;
+}
+.headerinfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.headerinfo img {
+  height: 40px;
+}
+.searchbox input {
+  padding: 10px 80px 10px 30px;
+  border-radius: 20px;
+  border-style: none;
+}
+.slider {
+  padding: 30px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sliderinfo {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.sliderinfo h2 {
+  color: aqua;
+}
+.sliderinfo h3 {
+  font-weight: 800;
+  font-size: 35px;
+}
+.sliderinfo button {
+  color: white;
+  background-color: blue;
+  padding: 10px 25px;
+  border-style: none;
+}
+.salescontainer {
+  display: flex;
+  justify-content: space-around;
+}
+.salescontainer img {
+  width: 32%;
+}
+.sales {
+  width: 100%;
+  padding: 20px 0px;
+  background-color: rgba(169, 169, 169, 0.295);
+}
+.gridContainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+}
+.gridItem {
+  display: flex;
+  background-color: #fff;
+  border: 2px solid black;
+}
+.gridAbout {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 100px 0px;
+}
+.gridAbout h4 {
+  font-size: 30px;
+}
+.gridAbout p > span {
+  font-size: 25px;
+}
+p > del {
+  font-size: 12;
+}
+.menus {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.menucontainer {
+  background-color: rgba(0, 0, 0, 0.432);
+  padding: 20px 0;
+}
+.footermenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer {
+  padding: 15px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+footer h5 span {
+  color: blue;
+}
+footer h5 {
+  opacity: 0.7;
+}

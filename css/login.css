@@ -1,0 +1,39 @@
+.input {
+  padding: 15px;
+  border: 2px solid black;
+}
+form {
+  display: flex;
+  height: 500px;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 15px;
+  width: 40%;
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.flexform {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+form p {
+  align-self: center;
+  font-size: 10px;
+  opacity: 0.7;
+}
+form button {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-style: none;
+  border-radius: 5px;
+  color: white;
+}
+.but {
+  background-color: blue;
+}
+.register {
+  background-color: black;
+}
